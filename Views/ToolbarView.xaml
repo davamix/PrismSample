@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="PrismWpfSample.Views.ToolbarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PrismWpfSample.Views"
+			 xmlns:prism="http://prismlibrary.com/"
+			 prism:ViewModelLocator.AutoWireViewModel="True">
+	<Grid>
+		<StackPanel Orientation="Horizontal">
+			<Button Content="Button A" Height="50" Width="50" Command="{Binding ButtonACommand}" CommandParameter="From A" />
+			<Button Content="Button B" Height="50" Width="50" Command="{Binding ButtonBCommand}" CommandParameter="From B"/>
+			<Button Content="Button C" Height="50" Width="50" Command="{Binding ButtonCCommand}"/>
+			<Button Content="Button D" Height="50" Width="50" Command="{Binding ButtonDCommand}"/>
+		</StackPanel>
+	</Grid>
+</UserControl>
