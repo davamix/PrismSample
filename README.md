@@ -1,6 +1,6 @@
 # PrismSample
 
-Prism WPF 6.1 and Prism.Autofac
+Prism WPF 6.2 and Prism.Autofac
 
 The application has three components:
 - PrismWpfSample is the main application (shell)
