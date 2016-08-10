@@ -12,12 +12,12 @@
         <Grid.RowDefinitions>
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="*" />
-			<RowDefinition Height="Auto
-						   " />
+			<RowDefinition Height="Auto" />
 		</Grid.RowDefinitions>
 		
-		<views:ToolbarView Grid.Row="0" HorizontalAlignment="Center"/>
+		<ContentControl Grid.Row="0" prism:RegionManager.RegionName="ToolbarRegion" />
 		<views:ContentView Grid.Row="1" HorizontalAlignment="Stretch" />
 		<views:StatusbarView Grid.Row="2" HorizontalAlignment="Stretch"/>
-    </Grid>
+
+	</Grid>
 </Window>

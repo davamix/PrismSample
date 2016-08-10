@@ -78,18 +78,13 @@
     </ApplicationDefinition>
     <Compile Include="Converters\IsOnlineBooleanColorConverter.cs" />
     <Compile Include="Events\ToolbarButtonEventMessage.cs" />
-    <Compile Include="Events\ToolbarButtonEvent.cs" />
     <Compile Include="ViewModels\ContentViewModel.cs" />
     <Compile Include="ViewModels\StatusbarViewModel.cs" />
-    <Compile Include="ViewModels\ToolbarViewModel.cs" />
     <Compile Include="Views\ContentView.xaml.cs">
       <DependentUpon>ContentView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\StatusbarView.xaml.cs">
       <DependentUpon>StatusbarView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\ToolbarView.xaml.cs">
-      <DependentUpon>ToolbarView.xaml</DependentUpon>
     </Compile>
     <Page Include="Views\ContentView.xaml">
       <SubType>Designer</SubType>
@@ -109,10 +104,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\StatusbarView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\ToolbarView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -145,8 +136,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="PrismWpfSampleContracts\PrismWpfSampleContracts.csproj">
+      <Project>{b14e5d4e-6b28-4eed-adc2-c07d99765169}</Project>
+      <Name>PrismWpfSampleContracts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(TargetDir)\Components" mkdir "$(TargetDir)\Components"</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

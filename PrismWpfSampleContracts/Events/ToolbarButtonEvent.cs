@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Prism.Events;
 
-namespace PrismWpfSample.Events
+namespace PrismWpfSampleContracts.Events
 {
-	public class ToolbarButtonEvent : PubSubEvent<ToolbarButtonEventMessage>
+	public class ToolbarButtonEvent : PubSubEvent<IToolbarButtonEventMessage>
 	{
 	}
 }

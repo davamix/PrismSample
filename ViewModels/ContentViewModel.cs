@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Prism.Events;
 using Prism.Mvvm;
 using PrismWpfSample.Events;
+using PrismWpfSampleContracts.Events;
 
 namespace PrismWpfSample.ViewModels
 {
@@ -37,6 +38,7 @@ namespace PrismWpfSample.ViewModels
 
 			//_eventAggregator.GetEvent<ToolbarButtonEvent>().Subscribe((x) => ContentValue = $"[{x.Id}] - {x.Message}");
 
+			//_eventAggregator.GetEvent<ToolbarButtonEvent>().Subscribe((x) => ContentValues.Add($"[{x.Id}] - {x.Message}"));
 			_eventAggregator.GetEvent<ToolbarButtonEvent>().Subscribe((x) => ContentValues.Add($"[{x.Id}] - {x.Message}"));
 		}
 	}

@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpfSample", "PrismWpfSample.csproj", "{2307E213-6C6F-4455-9B2B-D94739F42A5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolbarModule", "..\ToolbarModule\ToolbarModule.csproj", "{25C8BA7E-A5C1-4871-8B6C-C08D5BD1A1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpfSampleContracts", "PrismWpfSampleContracts\PrismWpfSampleContracts.csproj", "{B14E5D4E-6B28-4EED-ADC2-C07D99765169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2307E213-6C6F-4455-9B2B-D94739F42A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2307E213-6C6F-4455-9B2B-D94739F42A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2307E213-6C6F-4455-9B2B-D94739F42A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C8BA7E-A5C1-4871-8B6C-C08D5BD1A1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C8BA7E-A5C1-4871-8B6C-C08D5BD1A1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C8BA7E-A5C1-4871-8B6C-C08D5BD1A1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C8BA7E-A5C1-4871-8B6C-C08D5BD1A1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14E5D4E-6B28-4EED-ADC2-C07D99765169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14E5D4E-6B28-4EED-ADC2-C07D99765169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14E5D4E-6B28-4EED-ADC2-C07D99765169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14E5D4E-6B28-4EED-ADC2-C07D99765169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
