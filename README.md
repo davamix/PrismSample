@@ -3,7 +3,7 @@
 Prism WPF 6.2 and Prism.Autofac
 
 The application has three components:
-- PrismWpfSample is the main application (shell)
+- PrismWpfSample is the main application (shell) (The solution file is here)
 - ToolbarModule is the module to be loaded in the main app
 - PrismWpfSampleContracts is a common library with a class for the event and an Interface for the event message to be implemented by the module
 
