@@ -137,7 +137,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="PrismWpfSampleContracts\PrismWpfSampleContracts.csproj">
+    <ProjectReference Include="..\PrismWpfSampleContracts\PrismWpfSampleContracts.csproj">
       <Project>{b14e5d4e-6b28-4eed-adc2-c07d99765169}</Project>
       <Name>PrismWpfSampleContracts</Name>
     </ProjectReference>

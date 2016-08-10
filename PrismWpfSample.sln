@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpfSample", "PrismWpfS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolbarModule", "..\ToolbarModule\ToolbarModule.csproj", "{25C8BA7E-A5C1-4871-8B6C-C08D5BD1A1F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpfSampleContracts", "PrismWpfSampleContracts\PrismWpfSampleContracts.csproj", "{B14E5D4E-6B28-4EED-ADC2-C07D99765169}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpfSampleContracts", "..\PrismWpfSampleContracts\PrismWpfSampleContracts.csproj", "{B14E5D4E-6B28-4EED-ADC2-C07D99765169}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
