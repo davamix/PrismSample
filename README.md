@@ -1,6 +1,7 @@
 # PrismSample
 
 Prism WPF 6.1 and Prism.Autofac
+<<<<<<< HEAD
 
 The application has three components:
 - PrismWpfSample is the main application (shell)
@@ -10,3 +11,5 @@ The application has three components:
 PrismWpfSample has a post build event to create a folder for the modules ("Components").
 ToolbarModules has a post build event to copy the .dll to the PrismWpfSample\Compoents Debug folder
 
+=======
+>>>>>>> 6961cffaac248f9615f56cff7d98ff8b31f313ce
