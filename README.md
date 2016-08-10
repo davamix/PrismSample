@@ -10,3 +10,5 @@ The application has three components:
 PrismWpfSample has a post build event to create a folder for the modules ("Components").
 ToolbarModules has a post build event to copy the .dll to the PrismWpfSample\Compoents Debug folder
 
+If you run the app before build the solution only the main window shown, so it works without error when the module is not ready :) Build the solution in order to create the module and run the post build events.
+
