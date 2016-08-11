@@ -58,10 +58,5 @@ namespace PrismWpfSample.ViewModels
 			if(module?.State == ModuleState.NotStarted)
 				_moduleManager.LoadModule(moduleName);
 		}
-
-		private void CleanRegions()
-		{
-			_regionManager.Regions["ToolbarRegion"].RemoveAll();
-		}
 	}
 }

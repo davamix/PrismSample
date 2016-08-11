@@ -6,9 +6,9 @@
              xmlns:local="clr-namespace:Toolbar2Module.Views"
 			 xmlns:prism="http://prismlibrary.com/"
 			 prism:ViewModelLocator.AutoWireViewModel="True">
-    <Grid>
-            <StackPanel Orientation="Horizontal">
-				<Button Content="T2 B1"/>
-			</StackPanel>
-    </Grid>
+	<Grid>
+		<StackPanel Orientation="Horizontal" Background="SkyBlue">
+			<Button Content="T2 B1"/>
+		</StackPanel>
+	</Grid>
 </UserControl>
