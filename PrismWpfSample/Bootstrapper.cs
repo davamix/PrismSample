@@ -63,7 +63,12 @@ namespace PrismWpfSample
 
 			}
 
-			manager.Run();
+
+			//foreach (var module in ModuleCatalog.Modules)
+			//{
+			//	manager.LoadModule(module.ModuleName);
+			//}
+			//manager.Run();
 		}
 
 		protected override void InitializeShell()

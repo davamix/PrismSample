@@ -13,11 +13,14 @@
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="*" />
 			<RowDefinition Height="Auto" />
+			<RowDefinition Height="25" />
 		</Grid.RowDefinitions>
 		
 		<ContentControl Grid.Row="0" prism:RegionManager.RegionName="ToolbarRegion" />
 		<views:ContentView Grid.Row="1" HorizontalAlignment="Stretch" />
 		<views:StatusbarView Grid.Row="2" HorizontalAlignment="Stretch"/>
+		<!--<ContentControl Grid.Row="3" prism:RegionManager.RegionName="LoaderRegion" />-->
+		<views:ModuleLoaderView Grid.Row="3" />
 
 	</Grid>
 </Window>
